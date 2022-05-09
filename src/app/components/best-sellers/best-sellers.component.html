@@ -1,0 +1,19 @@
+<div class="best-sellers">
+    <div class="best-sellers__container">
+        <div class="best-sellers__items" fxLayout="tow" fxLayoutAlign="space-around">
+            <div class="best-sellers__item" *ngFor="let been of coffeBeans">
+                <div class="best-sellers__item__container" fxLayout="column" fxLayoutAlign="space-around center">
+                    <div class="best-sellers__item__img">
+                        <img src="{{been.ImgSrc}}" alt="">
+                    </div>
+                    <h1 class="best-sellers__item__heading">
+                        {{been.Name}}
+                    </h1>
+                    <p class="best-sellers__item__price">
+                        {{been.Price}}$
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

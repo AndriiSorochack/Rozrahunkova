@@ -1,0 +1,69 @@
+@import "../../../app/scss/mixins/text-mixins.scss";
+@import "../../../app/scss/colors/main_colors.scss";
+@import "../../../app/scss/font/font.scss";
+
+.background-recktangle {
+  //position: absolute;
+  
+  height: 100%;
+  margin-top: 25px;
+  background: #0f0f0f;
+  border-radius: 0px 0px 0px 76px;
+  //min-width: 786px;
+  //z-index: -1;
+}
+
+@media (min-width: 1440px) {
+  .background-recktangle {
+    width: calc(786px + (100vw - 1440px));
+    margin-right: calc((100vw - 1440px) * -1);
+    //max-width: 786px;
+  }
+}
+
+.container {
+  //position: relative;
+  padding: 100px 0px;
+  margin-bottom: 220px;
+}
+
+.main-text {
+  &__container {
+    max-width: 500px;
+  }
+
+  &__heading {
+    @include text-mixin($main-heading, $text-color-additional);
+    font-family: "Playfair Display";
+    margin-bottom: 20px;
+  }
+
+  &__description {
+    @include text-mixin($description-medium, $text-color-additional);
+    font-family: "Inter", sans-serif;
+    margin-bottom: 30px;
+    width: 337px;
+  }
+
+  &__shop-button {
+    @include text-mixin($description-medium, $text-color-main);
+    padding: 15px 88px;
+    background-color: $text-color-additional;
+    font-weight: 700;
+    border-radius: 4px;
+  }
+}
+
+.main-products {
+  &__beans {
+    margin-top: -85px;
+  }
+}
+
+@media (min-width: 1250px) {
+  .main-products {
+    &__beans {
+
+    }
+  }
+}

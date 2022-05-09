@@ -1,0 +1,58 @@
+@import "../../../app/scss/mixins/text-mixins.scss";
+@import "../../../app/scss/colors/main_colors.scss";
+@import "../../../app/scss/font/font.scss";
+
+.container {
+
+}
+
+.about-info {
+  width: 100%;
+  height: px;
+  background-color: $additional-color;
+  //padding: 86px 112px 86px 0px;
+  height: 436px;
+  min-width: 1440px;
+  border-radius: 76px 0px 0px 0px;
+
+  &__text-block {
+    width: 100%;
+    min-width: 413px;
+
+    &__container {
+      margin: 86px 0px 86px 30%;
+    }
+    
+
+    &__header {
+      @include text-mixin($heading-big, $text-color-main);
+      font-family: "Playfair Display";
+      font-weight: 700;
+      margin-bottom: 50px;
+    }
+
+    &__text {
+      @include text-mixin(14px, $text-color-main);
+      font-family: "Inter";
+      line-height: 21px;
+      font-style: normal;
+      font-weight: 400;
+      margin-bottom: 15px;
+      font-family: "Inter";
+    }
+
+    &__read-more-ref {
+      @include text-mixin($description-big, $text-color-main);
+      margin-top: 30px;
+      font-family: "Inter";
+      font-weight: 600;
+      display: block;
+    }
+  }
+
+  &__img {
+    display: block;
+    margin: -50px 0 0 112px;
+    //margin: -50px -110px 0px 0px;
+  }
+}

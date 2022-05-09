@@ -1,0 +1,29 @@
+@import "../../../app/scss/mixins/text-mixins.scss";
+@import "../../../app/scss/colors/main_colors.scss";
+@import "../../../app/scss/font/font.scss";
+
+header {
+  padding: 69px 0px;
+}
+
+.nav {
+  list-style: none;
+  &__link {
+    font-family: "Inter", sans-serif;
+    @include text-mixin($description-medium, $text-color-additional);
+  }
+}
+
+.logo {
+  &__text {
+    font-family: "Fira Code", monospace;
+    @include text-mixin($description-medium, $text-color-additional);
+  }
+}
+
+.nav-icons {
+  list-style: none;
+  &__shop-img {
+        text-decoration: none;
+  }
+}

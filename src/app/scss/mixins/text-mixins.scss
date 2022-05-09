@@ -1,0 +1,5 @@
+@mixin text-mixin ($fontSize, $fontColor) {
+    color: $fontColor;
+    font-size: $fontSize;
+    text-decoration: none;
+}
