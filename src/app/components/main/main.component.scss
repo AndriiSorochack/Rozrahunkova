@@ -56,14 +56,6 @@
 
 .main-products {
   &__beans {
-    margin-top: -85px;
-  }
-}
-
-@media (min-width: 1250px) {
-  .main-products {
-    &__beans {
-
-    }
+    height: 500px;
   }
 }
