@@ -11,6 +11,7 @@ import { BestSellersComponent } from './components/best-sellers/best-sellers.com
 import { FooterComponent } from './components/footer/footer.component';
 import { AdvantagesComponent } from './components/advantages/advantages.component';
 import { QuoteComponent } from './components/quote/quote.component';
+import { SubscribeComponent } from './components/subscribe/subscribe.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { QuoteComponent } from './components/quote/quote.component';
     BestSellersComponent,
     FooterComponent,
     AdvantagesComponent,
-    QuoteComponent
+    QuoteComponent,
+    SubscribeComponent
   ],
   imports: [
     BrowserModule,
