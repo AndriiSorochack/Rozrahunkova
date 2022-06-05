@@ -11,6 +11,7 @@ import { BestSellersComponent } from './components/best-sellers/best-sellers.com
 import { FooterComponent } from './components/footer/footer.component';
 import { AdvantagesComponent } from './components/advantages/advantages.component';
 import { QuoteComponent } from './components/quote/quote.component';
+import { GaleryComponent } from './components/galery/galery.component';
 import { SubscribeComponent } from './components/subscribe/subscribe.component';
 
 @NgModule({
@@ -23,7 +24,7 @@ import { SubscribeComponent } from './components/subscribe/subscribe.component';
     FooterComponent,
     AdvantagesComponent,
     QuoteComponent,
-    SubscribeComponent
+    GaleryComponent
   ],
   imports: [
     BrowserModule,
