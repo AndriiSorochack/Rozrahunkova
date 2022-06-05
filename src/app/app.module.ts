@@ -24,7 +24,8 @@ import { SubscribeComponent } from './components/subscribe/subscribe.component';
     FooterComponent,
     AdvantagesComponent,
     QuoteComponent,
-    GaleryComponent
+    GaleryComponent,
+    SubscribeComponent
   ],
   imports: [
     BrowserModule,

@@ -17,7 +17,6 @@ export class GaleryComponent implements OnInit {
   ngOnInit(): void {}
 
   private setGalery() {
-    debugger;
     for (let i: number = 0; i < this.IMG_SIZE; i++) {
       this.galeryImgs.push({
         Name: `Rectangle 7${i}.png`,
