@@ -1,0 +1,72 @@
+@import "../../../app/scss/mixins/text-mixins.scss";
+@import "../../../app/scss/colors/main_colors.scss";
+@import "../../../app/scss/font/font.scss";
+
+footer {
+  min-width: 1440px;
+  height: 383px;
+  background-color: $additional-color;
+}
+
+p {
+  @include text-mixin($description-default, white);
+  font-family: "Inter";
+}
+
+.email-input {
+  background: #0f0f0f;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  width: 380px;
+  height: 45px;
+  padding: 5px;
+}
+
+.subscribe {
+  width: 266px;
+  height: 50px;
+  left: 130px;
+  top: 6301.11px;
+
+  background: #ffffff;
+  border-radius: 4px;
+  @include text-mixin($description-default, black);
+  font-family: "Inter";
+}
+
+.message {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: #ffffff;
+
+  opacity: 0.6;
+}
+
+.rights {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+
+  color: #ffffff;
+
+  opacity: 0.6;
+  margin-bottom: 30px;
+}
+.footer {
+  &__subscribe-info {
+  }
+
+  &__container {
+    margin: auto 0;
+    width: 1440px;
+  }
+
+  &__about-info {
+  }
+}

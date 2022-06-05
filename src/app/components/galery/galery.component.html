@@ -6,7 +6,7 @@
     fxLayoutGap="30px"
   >
     <h1 class="galery__header">Galery</h1>
-    <div class="galery__items" fxLayout="row" fxLayoutAlign="space-around">
+    <div class="galery__items" fxLayout="row" fxLayoutAlign="space-between" fxLayoutGap="30px">
       <div class="galery__item" *ngFor="let been of galeryImgs">
         <div class="galery__item__img">
           <img src="{{ been.ImgSrc }}" alt="img" />
